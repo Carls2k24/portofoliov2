@@ -1139,4 +1139,66 @@ hr {
     justify-content: center;
   }
 }
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
 
+  .content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .left h1 {
+    font-size: 32px;
+  }
+
+  .main {
+    width: 95%;
+  }
+
+  .card {
+    padding: 22px;
+  }
+
+  .orbit-box {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* SECTION SPACING */
+  .home,
+  .project,
+  .about,
+  .services {
+    margin: 120px 20px;
+  }
+
+  .home-container {
+    flex-direction: column;
+  }
+
+  .home img {
+    width: 100%;
+  }
+
+  .info-home h1 {
+    font-size: 40px;
+  }
+
+  .info-home h3 {
+    font-size: 24px;
+  }
+
+  .about-info2 {
+    flex-direction: column;
+  }
+
+  .photo-container img {
+    width: 100%;
+  }
+
+  .ul-list {
+    gap: 1rem;
+    padding: 10px 15px;
+  }
+
+}
